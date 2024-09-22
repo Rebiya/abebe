@@ -1,0 +1,29 @@
+ctrl +  `  to open terminal in vs code
+ctrl + L to clean commands written on the terminal
+ctrl + | to split terminal
+ctrl + up arrow sign ==>> to revise the above written commands
+code . ==>>means open the folder in vscode 
+let folder name     henok,chaltu and hani then:
+    hani cd henok ==>> changing directory
+    henok cd ../chaltu ==>>getting out from henok to chaltu
+    henok mv hanny ../chaltu ==>moving folder hanny of folder henok to chaltu
+    chaltu mv hanny hani ==>> renaming folder name
+    chaltu mkdir haqu ==>>creating folder in chaltu folder
+    chaltu pwd ==>> desktop path of that folder
+    almaz ls ==>>listing sub folders of the main folder almaz
+    almaz rm ../henok/about-henok.html  ==>>get out from the folder henok then delete the file in it
+    drwxr-xr-x  3/u  humanstown/g staff/o 96 may 26 20:06 chaltu 
+==>>read/write  user  group  everyone else  size   day 
+directory means folder:
+look for : linux permission numbering
+other way to assign or change permission is chmod but using bash I can't alter permissions on my own pc. but if we use cswing in vscode as default we can change permission access of our own computers
+-----------------------Git--------------------------------
+used for:
+*to review , update ,to avoide repetition of similar works 
+*as guidence for group team as team ytekefafele sera and lay saydereg befit to combine (version control system)so we can edit codes of our team worker
+*to track changes of our codes(helps where an error has occured)
+*to make backup of our codes(give accountability)
+*to make collaboration of our team members
+
+
+
