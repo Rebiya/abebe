@@ -76,6 +76,10 @@ Clone: You will need to clone it and make it available in your local computer so
 that you make changes
 ▪ Commit: Make changes and commit the changes
 ▪ Push: Push the changes.
+we don't add binary files and very large sized files into our GitHub
+repository because they are not easily manageable and can cause issues
+
+
 
 
 
