@@ -3,6 +3,9 @@ ctrl + L to clean commands written on the terminal
 ctrl + | to split terminal
 ctrl + up arrow sign ==>> to revise the above written commands
 code . ==>>means open the folder in vscode 
+crtl + C: If you don’t want to close your terminal, but want to stop a running
+command, just use the “Ctrl + C” using your keyboard
+
 let folder name     henok,chaltu and hani then:
     hani cd henok ==>> changing directory
     henok cd ../chaltu ==>>getting out from henok to chaltu
@@ -17,6 +20,7 @@ let folder name     henok,chaltu and hani then:
 directory means folder:
 look for : linux permission numbering
 other way to assign or change permission is chmod but using bash I can't alter permissions on my own pc. but if we use cswing in vscode as default we can change permission access of our own computers
+https://www.educative.io/blog/bash-shell-command-cheat-sheet
 -----------------------Git--------------------------------
 used for:
 *to review , update ,to avoide repetition of similar works 
@@ -24,6 +28,55 @@ used for:
 *to track changes of our codes(helps where an error has occured)
 *to make backup of our codes(give accountability)
 *to make collaboration of our team members
+The .git directory does the following:
+Remote information (to which remote server your project is connected)
+● History of all local commits
+● Branch information (on which branch is your current project state (HEAD)
+pointing to)
+● All logs of all local commits you have ever made (including revert
+changes)
+Where does the. git directory come from?
+● In case of new projects, this directory is created when you open your new
+project folder in terminal and type the command “git init”
+● If it is an existing project, this directory is created when you bring a copy
+of a repository into your local computer through the command “git clone”.
+Git is software that runs locally. 
+GitHub is a website/online host where you can remotely store your git
+project/repositories
+Git workflow: It is a guideline for how to use Git in a team project to ensure the team is
+on the same page.
+Git repository/repo: It is a virtual location on GitHub where a user can store code,
+Repository is nothing but a folder where
+files and other folders are saved remotely in cloud services like GitHub
+Why README.md file? This file tells other people why
+your project is useful, how they can get started using it
+and what they can do with your project
+● Creating a new branch:
+o Type: git branch <branchName>
+● List all of the branches in your repository:
+o Type: git branch
+● Delete a specified branch:
+o Type: git branch -D < branchName >
+● Rename the current branch to “newBrahchName”:
+o Type: git branch -m < newBrahchNam >
+Git commands:
+git add . (add all files in the current directory to staging area)
+git add <file_name> (add a specific file to staging area)
+git commit -m “message” (commit the changes with a message)
+git log (show the commit history)
+git status (show the status of the repository)
+git push 
+git pull
+forking, sending pull requests and merging
+Forking: A fork is a copy of a repository. Forking is basically copying any public
+repository from GitHub of someone to your GitHub
+Why forking: Forking a repository allows you to freely make changes without affecting
+the original project.
+Clone: You will need to clone it and make it available in your local computer so
+that you make changes
+▪ Commit: Make changes and commit the changes
+▪ Push: Push the changes.
+
 
 
 
